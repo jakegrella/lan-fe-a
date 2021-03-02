@@ -11,7 +11,7 @@ const FAQ = props => {
         <p className='question'>What is viewee?</p>
         <p className='answer'>viewee is a platform that allows Lambda School students to answer, view, and post job interview questions to prepare for the real thing.</p>
         <p className='question'>Why viewee?</p>
-        <p className='answer'>I felt there wasn't a platform who's sole purpose was about interview questions. Often it was tacked on to job and interview preparation sites and not really given much focus.</p>
+        <p className='answer'>I felt there wasn&apos;t a platform who&apos;s sole purpose was about interview questions. Often it was tacked on to job and interview preparation sites and not really given much focus.</p>
         <p className='question'>Is it easy to get started with viewee?</p>
         <p className='answer'>Extremely easy. You can register in seconds and immediately start viewing, answering, and posting questions.</p>
         <p className='question'>Who built viewee?</p>

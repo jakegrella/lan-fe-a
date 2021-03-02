@@ -10,9 +10,9 @@ const AllRoomsDashboard = props => {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [slide, setSlide] = useState(1);
 
-  const openModal = () => {
-    setIsOpen(true);
-  };
+  // const openModal = () => {
+  //   setIsOpen(true);
+  // };
 
   const closeModal = () => {
     setIsOpen(false);

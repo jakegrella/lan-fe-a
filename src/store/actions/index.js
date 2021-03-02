@@ -106,7 +106,7 @@ export const updateUserRole = (id, role) => (dispatch) => {
   return axios
     .put(`${BACKEND_URL}/api/admin/users/${id}/${role}`)
     .then(() => toast('Track successfully changed to' + role))
-    .catch(() => toast("There was a problem updating the user's role."));
+    .catch(() => toast('There was a problem updating the user\'s role.'));
 };
 
 // Sets user track during onboarding
@@ -401,7 +401,7 @@ export const resolveComment = (commentID) => (dispatch) => {
 
 // Removes a comment (user)
 export const removeCommentsByUserId = (commentId) => (dispatch) => {
-  console.log(commentId)
+  console.log(commentId);
   return axios
     .delete(`${BACKEND_URL}/api/comment/${commentId}`)
     .then((response) => console.log(response.data))
